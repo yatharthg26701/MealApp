@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Meal App</title>
+</head>
+<body>
+    <header>
+        <h1>Meal App</h1>
+    </header>
+    <main>
+        <section id="add-meal">
+            <h2>Add a New Meal</h2>
+            <form id="meal-form">
+                <input type="text" id="meal-name" placeholder="Meal Name" required>
+                <input type="text" id="meal-description" placeholder="Meal Description" required>
+                <button type="submit">Add Meal</button>
+            </form>
+        </section>
+        <section id="meal-list">
+            <h2>Meal List</h2>
+            <ul id="meal-items"></ul>
+        </section>
+    </main>
+    <input type="text" id="search-input" placeholder="Search Meals">
+    <script src="app.js"></script>
+</body>
+</html>
